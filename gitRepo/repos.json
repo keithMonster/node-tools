@@ -1,0 +1,646 @@
+[
+  {
+    "path": "/Users/xuke/DustessProject/app-bigdata-mobile-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/app-bigdata-mobile-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/app-bigdata-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/app-center/app-bigdata-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/app-center-manage",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/app-center-manage.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/auto-import-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/auto-import-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/bigdata-bi-platform-client",
+    "url": "ssh://git@git.dustess.com:60022/data-platform/bigdata-bi-platform-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/biz-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/biz-ui/biz-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cboss-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/internal-project/cboss-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-config-platform",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/internal-project/cf-config-platform.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/base-ui/cf-design.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-biz",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-biz.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-biz-mobile",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-biz-mobile.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-charts",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-charts.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-charts-mobile",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-charts-mobile.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-flex",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-flex.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-icons",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-icons.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-issues",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-issues.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-logic",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-logic.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-mobile",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-mobile.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-pro",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-design-pro.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-design-statistic",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/base-ui/cf-design-statistic.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-editor-config",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/cf-editor-config.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-editor-manage-client",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/cf-editor-manage-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-editor-uni-app",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/cf-editor-uni-app.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-enterprise-official-website",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-enterprise-official-website.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-material",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-material.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cf-progress",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cf-progress.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cfx",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/cfx.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cfx-cli-core",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cfx-cli-core.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cfx-config-platform",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/internal-project/cfx-config-platform.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cfx-fork",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/private-groups/cfx-fork.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cfx-lego-usage",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/packages/cfx-lego-usage.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cfx-lego-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/cfx-lego-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cfx-process-editor-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/cfx-process-editor-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/cfx-proxy-monorepo",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/cfx-proxy-monorepo.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/ci-config",
+    "url": "ssh://git@git.dustess.com:60022/shared-golib/ci-config.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/crm-business-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/crm-business-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/crm-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/crm/crm-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/crm-journey-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/crm-journey-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/crm-m-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/crm/crm-m-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/crm-pc-biz",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/crm-pc-biz.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/data-base-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/data-groups/data-base-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/data-efficacy-platform",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/data-groups/data-efficacy-platform.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/dimo",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/dimo.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/duero",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/duero/duero.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/duero-biz",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/duero/duero-biz.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/duero-depm",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/duero/duero-depm.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/duero-mobile",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/duero/duero-mobile.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/duerox-schedule-node",
+    "url": "ssh://git@git.dustess.com:60022/dustess-b2e/tech-fe/duerox-schedule-node.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/duerox-workbench",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/duerox/duerox-workbench.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/duerox-workbench-api",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/duerox/duerox-workbench-api.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/dustess-design",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/base-ui/dustess-design.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/element-ui",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/element-ui.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/enterprise-official-website-bd",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/enterprise-official-website-bd.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/gitlab-ci-base",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/docker/gitlab-ci-base.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/guide",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/guide.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/hawkeye-monitor-node",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/hawkeye-monitor-node.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/iamazon-upload-biz",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/iamazon-upload-biz.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/icloud-upload",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/icloud-upload.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/iconfig",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/packages/iconfig.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/icorki",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/packages/icorki.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/iform",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/packages/iform.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/igitlab-analysis",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/igitlab-analysis.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/iplatform-upload",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/iplatform-upload.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/iproxy",
+    "url": "ssh://git@git.dustess.com:60022/lilin1/iproxy.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/iqiankun",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/packages/iqiankun.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/iquery",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/iquery.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/itimo",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/itimo.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/itimo-keep-stack",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/itimo-keep-stack.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/iutils",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/iutils.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/kf-mobile-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/kf-mobile-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/kf-pc-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/kf-pc-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/kf-pc-components-vue2",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/kf/kf-pc-components-vue2.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/lego",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/packages/lego.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/mall-editor-client",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/mall-editor-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/mall-manage-tools-client",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/mall-manage-tools-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/mall-v3-biz-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/mall-v3-biz-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/marketing-ui",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/pc/marketing-ui.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/markting-components",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/markting/markting-components.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/markting-js",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/packages/markting-js.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/mk-manage-operation",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/pc/mk-manage-operation.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/mk-manage-traffic",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/pc/mk-manage-traffic.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/mk-mesh-manage-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/mk-mesh-manage-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/model-center-ui",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/packages/model-center-ui.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/monitor-platform",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/monitor-platform.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/myorg",
+    "url": "https://github.com/roninliu/myorg.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/op-mobile-woa-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/op-groups/op-mobile-woa-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/openplatform-mng",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/openplatform-mng.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/pc-micro-template-vue3",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/template/pc-micro-template-vue3.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/platform-sdk-vue",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/lib/platform-sdk-vue.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/private-bplus-manage-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/private-groups/private-bplus-manage-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/private-meinian-form-web",
+    "url": "https://git.dustess.com/dustess-f2e/platform-groups/private-meinian-form-web"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/private-meinian-pc-web",
+    "url": "https://git.dustess.com/dustess-f2e/platform-groups/private-meinian-pc-web"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/private-object",
+    "url": "ssh://git@git.dustess.com:60022/private-cloud/private-object.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-client-mk-common",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/pc/qw-client-mk-common.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-client-mk-material",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/pc/qw-client-mk-material.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-client-platform-notification",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-client-platform-notification.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-jsapi-init",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/crm/qw-jsapi-init.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-login",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-login.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-crm-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-crm-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-crm-report-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-crm-report-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-help-center-client",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-manage-help-center-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-industrial-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-industrial-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-journey-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-journey-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-kf-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-kf-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-mall-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-mall-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-settings-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-settings-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-short-message-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-short-message-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-trajectory-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-trajectory-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-manage-workorder-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-manage-workorder-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-micro-mobile",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/template/qw-micro-mobile.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-mobile.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-3rd-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-mobile-3rd-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-cms-sidebar",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/h5/qw-mobile-cms-sidebar.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-crm",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/qw-mobile-crm.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-docking-center-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-mobile-docking-center-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-kf-customer-service",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/qw-mobile-kf-customer-service.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-kf-quality-testing-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/qw-mobile-kf-quality-testing-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-kf-work-order",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/qw-mobile-kf-work-order.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-mall",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/qw-mobile-mall.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-mall-tools",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/qw-mobile-mall-tools.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-mine",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-mobile-mine.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-mk",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/h5/qw-mobile-mk.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-mk-h5-content",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mk-groups/h5/qw-mobile-mk-h5-content.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-mk-ssr",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-mobile-mk-ssr.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-op-authorization",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/op-groups/qw-mobile-op-authorization.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-op-tool",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/op-groups/qw-mobile-op-tool.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-platform-notification",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-mobile-platform-notification.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-todo",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-mobile-todo.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-mobile-workbench",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/qw-mobile-workbench.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-operation-channel-client",
+    "url": "ssh://git@git.dustess.com:60022/private-cloud/platform-project/front/operate-platform/qw-operation-channel-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-platform-sdk",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/lib/qw-platform-sdk.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/qw-scrm-client",
+    "url": "ssh://git@git.dustess.com:60022/markting/biz/qw-scrm-client.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-advertising-platform-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-advertising-platform-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-ai-quality-testing-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mid-groups/scrm-manage-ai-quality-testing-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-app-center-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-app-center-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-cashier-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-cashier-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-customer",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/scrm-manage-customer.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-docking-center-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-docking-center-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-extra",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-extra.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-financial-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/scrm-manage-financial-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-general-competence-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-general-competence-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-goods-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/scrm-manage-goods-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-kf-customer-service-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/scrm-manage-kf-customer-service-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-kf-quality-testing",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/scrm-manage-kf-quality-testing.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-kf-work-order",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/kf-groups/scrm-manage-kf-work-order.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-main",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-main.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-mall-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/scrm-manage-mall-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-opensea",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/scrm-manage-opensea.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-order-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/mall-groups/scrm-manage-order-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-public",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/scrm-manage-public.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-salechance",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/scrm-manage-salechance.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-short-message-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-short-message-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-web",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/private-groups/scrm-manage-web.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-manage-workbench",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-manage-workbench.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-sdk",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/crm-groups/scrm-sdk.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/scrm-template",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/scrm-template.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/sharp",
+    "url": "ssh://git@git.dustess.com:60022/dustess-f2e/platform-groups/packages/sharp.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/vue-cli-base-biz-component",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/template/vue-cli-base-biz-component.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/vueuse",
+    "url": "ssh://git@git.dustess.com:60022/dustess-fe/lib/vueuse.git"
+  },
+  {
+    "path": "/Users/xuke/DustessProject/wp-bill-client",
+    "url": "ssh://git@git.dustess.com:60022/oss/wp-bill-client.git"
+  }
+]
