@@ -1,0 +1,20 @@
+{
+  "card": {
+    "type": "event",
+    "time": "time",
+    "icon": "IconKefuM",
+    "iconColor": "#54C151"
+  },
+  "title": [
+    {
+      "field": "default",
+      "default": "抖音私信"
+    },
+    {
+      "default": "共",
+      "field": "msgNum",
+      "suffix": "条消息"
+    }
+  ],
+  "content": []
+}
