@@ -63,7 +63,7 @@ import { getJsonResult } from '../core.mjs';
 
 getJsonResult(
   '${item['分类']}',
-  '${item.remark}',
+  '${item.eventName}',
   '${item.id}',
   fetch(
     'https://oss-bill-qa.dustess.net/bill-trail-settings-api/trail/event/${
@@ -77,7 +77,7 @@ getJsonResult(
 // 将每个元素转换为 .mjs 文件内容并输出
 result.forEach(async (item) => {
   const mjsFileContent = generateMjsContent(item) + '\n';
-  const filename = item.remark;
+  const filename = item.eventName;
   try {
     // 调用fs/promises的writeFile方法，返回一个Promise
     const dirPath = path.join(__dirname, 'output'); // 假设'output'是相对于当前文件的目录
