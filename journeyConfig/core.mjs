@@ -77,7 +77,7 @@ function expressTransform(express) {
         if (!isValidVariableName(element)) {
           // 元素1，中文前缀
           result.default = removeQuotes(element);
-          result.comType = 'TEXT';
+          result.field = 'default';
           return;
         }
 
@@ -228,7 +228,7 @@ function getJson(type, oldTitle, oldContent, newAttrFields) {
 
   return {
     card,
-    title,
+    title: [title],
     content,
   };
 }
@@ -254,7 +254,7 @@ export function getJsonResult(type, name, id, fetchApi) {
       const newAttrFields = resData.fieldList
         .filter((field) => !field.defaultField)
         .map((field) => field.fieldName);
-    //   console.log('newAttrFields:', newAttrFields);
+      //   console.log('newAttrFields:', newAttrFields);
       const result = getJson(type, title, content, newAttrFields);
       //   defaultField
       writeJson(name, result);

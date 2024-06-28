@@ -6,16 +6,18 @@
     "iconColor": "#54C151"
   },
   "title": [
-    {
-      "field": "default",
-      "default": "抖音私信"
-    },
-    {
-      "default": "共",
-      "comType": "TEXT",
-      "field": "newAttr.msgNum",
-      "suffix": "条消息"
-    }
+    [
+      {
+        "field": "default",
+        "default": "抖音私信"
+      },
+      {
+        "default": "共",
+        "field": "newAttr.msgNum",
+        "comType": "TEXT",
+        "suffix": "条消息"
+      }
+    ]
   ],
   "content": []
 }

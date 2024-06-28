@@ -6,10 +6,12 @@
     "iconColor": "#306CFF"
   },
   "title": [
-    {
-      "default": "参与抽奖活动中奖",
-      "comType": "TEXT"
-    }
+    [
+      {
+        "default": "参与抽奖活动中奖",
+        "field": "default"
+      }
+    ]
   ],
   "content": [
     {

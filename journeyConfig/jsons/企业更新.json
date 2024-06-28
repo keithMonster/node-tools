@@ -6,31 +6,33 @@
     "iconColor": "#F5A524"
   },
   "title": [
-    {
-      "field": "translationFun.cusUpdatedOperatorName",
-      "comType": "TEXT",
-      "color": "#0D6BE9"
-    },
-    {
-      "field": "newAttr.actionOrigin",
-      "comType": "TEXT"
-    },
-    {
-      "default": "(",
-      "comType": "TEXT"
-    },
-    {
-      "field": "newAttr.actionOriginDetailTitle",
-      "comType": "TEXT"
-    },
-    {
-      "field": "newAttr.actionOriginDetailBody",
-      "comType": "TEXT"
-    },
-    {
-      "default": ")",
-      "comType": "TEXT"
-    }
+    [
+      {
+        "field": "translationFun.cusUpdatedOperatorName",
+        "comType": "TEXT",
+        "color": "#0D6BE9"
+      },
+      {
+        "field": "newAttr.actionOrigin",
+        "comType": "TEXT"
+      },
+      {
+        "default": "(",
+        "field": "default"
+      },
+      {
+        "field": "newAttr.actionOriginDetailTitle",
+        "comType": "TEXT"
+      },
+      {
+        "field": "newAttr.actionOriginDetailBody",
+        "comType": "TEXT"
+      },
+      {
+        "default": ")",
+        "field": "default"
+      }
+    ]
   ],
   "content": [
     {
