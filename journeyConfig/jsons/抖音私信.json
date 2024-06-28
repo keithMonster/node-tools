@@ -13,7 +13,7 @@
     {
       "default": "共",
       "comType": "TEXT",
-      "field": "msgNum",
+      "field": "newAttr.msgNum",
       "suffix": "条消息"
     }
   ],

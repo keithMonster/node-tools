@@ -12,7 +12,7 @@
       "color": "#0D6BE9"
     },
     {
-      "field": "actionOrigin",
+      "field": "newAttr.actionOrigin",
       "comType": "TEXT"
     },
     {
@@ -20,11 +20,11 @@
       "comType": "TEXT"
     },
     {
-      "field": "actionOriginDetailTitle",
+      "field": "newAttr.actionOriginDetailTitle",
       "comType": "TEXT"
     },
     {
-      "field": "actionOriginDetailBody",
+      "field": "newAttr.actionOriginDetailBody",
       "comType": "TEXT"
     },
     {
@@ -34,7 +34,7 @@
   ],
   "content": [
     {
-      "field": "operateItem",
+      "field": "newAttr.operateItem",
       "comType": "TEXT"
     }
   ]

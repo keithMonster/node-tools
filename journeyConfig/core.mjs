@@ -188,7 +188,15 @@ function fieldTransform(resField, item) {
   //   console.log('filter-express-------', express);
 }
 
-function getJson(type, oldTitle, oldContent) {
+function filterNewAttrFields(list, newAttrFields) {
+  list.forEach((item) => {
+    if (newAttrFields.includes(item.field)) {
+      item.field = `newAttr.${item.field}`;
+    }
+  });
+}
+
+function getJson(type, oldTitle, oldContent, newAttrFields) {
   const card = {
     type: 'event',
     time: 'time',
@@ -205,6 +213,8 @@ function getJson(type, oldTitle, oldContent) {
     fieldTransform(title, item);
   });
 
+  filterNewAttrFields(title, newAttrFields);
+
   //   console.log('title:', title);
 
   //   console.log('oldContent:', oldContent);
@@ -212,6 +222,7 @@ function getJson(type, oldTitle, oldContent) {
   oldContent?.map((item) => {
     fieldTransform(content, item);
   });
+  filterNewAttrFields(content, newAttrFields);
 
   //   console.log('content:', content);
 
@@ -239,8 +250,13 @@ export function getJsonResult(type, name, id, fetchApi) {
       const title = JSON.parse(records[0].item);
       const content = JSON.parse(records[1]?.item || null);
       // console.log('old_template:', records);
-      console.log('resData:',resData);
-      const result = getJson(type, title, content);
+      //   console.log('resData:', resData);
+      const newAttrFields = resData.fieldList
+        .filter((field) => !field.defaultField)
+        .map((field) => field.fieldName);
+    //   console.log('newAttrFields:', newAttrFields);
+      const result = getJson(type, title, content, newAttrFields);
+      //   defaultField
       writeJson(name, result);
       resData.rule = {
         rule: JSON.stringify(result),

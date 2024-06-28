@@ -14,17 +14,17 @@
   "content": [
     {
       "default": "参与“",
-      "field": "activityName",
+      "field": "newAttr.activityName",
       "comType": "TEXT",
       "suffix": "”活动获得:"
     },
     {
-      "field": "prizeType",
+      "field": "newAttr.prizeType",
       "comType": "TEXT"
     },
     {
       "default": "“",
-      "field": "prizeName",
+      "field": "newAttr.prizeName",
       "comType": "TEXT",
       "suffix": "”"
     }
