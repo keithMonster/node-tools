@@ -9,7 +9,7 @@ import fs from 'fs/promises';
 // 使用fileURLToPath和path模块来获取文件路径
 import { fileURLToPath } from 'url';
 import path from 'path';
-import {params,jwt} from './apiTemplate.mjs'
+import { params, jwt } from './apiTemplate.mjs';
 
 // 将import.meta.url转换为文件路径
 const __filename = fileURLToPath(import.meta.url);
@@ -57,14 +57,18 @@ const result = data.slice(1).map((row) => {
 // 输出结果
 console.log(result);
 // / 用于生成 .mjs 文件内容的函数
-const generateMjsContent = (item) => `
+const generateMjsContent = (item) =>
+  `
 import { getJsonResult } from '../core.mjs';
 
 getJsonResult(
   '${item['分类']}',
   '${item.remark}',
+  '${item.id}',
   fetch(
-    'https://oss-bill-qa.dustess.net/bill-trail-settings-api/trail/event/${item.id}${jwt}',
+    'https://oss-bill-qa.dustess.net/bill-trail-settings-api/trail/event/${
+      item.id
+    }${jwt}',
      ${JSON.stringify(params)}
   )
 );

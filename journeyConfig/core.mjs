@@ -5,6 +5,7 @@ import path from 'path';
 
 import { icons } from './config.mjs';
 import { isChinese, removeQuotes, isValidVariableName } from './utils.mjs';
+import { params, jwt, putHeaders } from './apiTemplate.mjs';
 
 // 将import.meta.url转换为文件路径
 const __filename = fileURLToPath(import.meta.url);
@@ -18,7 +19,7 @@ async function writeJson(filename, content) {
     const filePath = path.join(dirPath, `${filename}.json`); // 文件路径
 
     await fs.writeFile(filePath, JSON.stringify(content, null, '  '));
-    console.log(`文件 ${filename} 写入成功。`);
+    // console.log(`文件 ${filename} 写入成功。`);
   } catch (err) {
     // 错误处理
     console.error('写入文件时发生错误:', err);
@@ -136,8 +137,8 @@ function strConcatTransform(express) {
 
     return parts;
   }
-  if(express?.includes('?')){
-    return false
+  if (express?.includes('?')) {
+    return false;
   }
   const matchArr = extractAndCleanParts(express);
   // console.log('----:', matchArr);
@@ -184,7 +185,7 @@ function fieldTransform(resField, item) {
     return resField.push(strMached);
   }
 
-  console.log('filter-express-------', express);
+  //   console.log('filter-express-------', express);
 }
 
 function getJson(type, oldTitle, oldContent) {
@@ -198,21 +199,21 @@ function getJson(type, oldTitle, oldContent) {
   const title = [];
   const content = [];
 
-//   console.log('oldTitle:', oldTitle);
+  //   console.log('oldTitle:', oldTitle);
 
   oldTitle.map((item) => {
     fieldTransform(title, item);
   });
 
-//   console.log('title:', title);
+  //   console.log('title:', title);
 
-//   console.log('oldContent:', oldContent);
+  //   console.log('oldContent:', oldContent);
 
   oldContent?.map((item) => {
     fieldTransform(content, item);
   });
 
-//   console.log('content:', content);
+  //   console.log('content:', content);
 
   return {
     card,
@@ -221,7 +222,7 @@ function getJson(type, oldTitle, oldContent) {
   };
 }
 
-export function getJsonResult(type, name, fetchApi) {
+export function getJsonResult(type, name, id, fetchApi) {
   fetchApi
     .then((response) => {
       // 首先检查响应是否成功
@@ -239,5 +240,45 @@ export function getJsonResult(type, name, fetchApi) {
       // console.log('old_template:', records);
       const result = getJson(type, title, content);
       writeJson(name, result);
+      fetch(
+        `https://oss-bill-qa.dustess.net/bill-trail-settings-api/trail/event/${id}` +
+          jwt,
+        params
+      )
+        .then((response) => {
+          // 首先检查响应是否成功
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          // 解析JSON数据
+          return response.json();
+        })
+        .then((data) => {
+          const reqData = data.data;
+          reqData.rule = {
+            rule: JSON.stringify(result),
+          };
+          //   console.log('reqData.id:', reqData.id);
+          fetch(
+            'https://oss-bill-qa.dustess.net/bill-trail-settings-api/trail/event' +
+              jwt,
+            {
+              headers: putHeaders,
+              body: JSON.stringify(reqData),
+              method: 'PUT',
+            }
+          )
+            .then((response) => {
+              // 首先检查响应是否成功
+              if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+              }
+              // 解析JSON数据
+              return response.json();
+            })
+            .then((data) => {
+              console.log(`${name}:res`, data);
+            });
+        });
     });
 }
