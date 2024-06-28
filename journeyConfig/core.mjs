@@ -233,17 +233,27 @@ export function getJsonResult(type, name, id, fetchApi) {
       return response.json();
     })
     .then((data) => {
+      const resData = data.data;
       // 处理获取的数据
-      const records = data.data.templates[0].records;
+      const records = resData.templates[0].records;
       const title = JSON.parse(records[0].item);
       const content = JSON.parse(records[1]?.item || null);
       // console.log('old_template:', records);
+      console.log('resData:',resData);
       const result = getJson(type, title, content);
       writeJson(name, result);
+      resData.rule = {
+        rule: JSON.stringify(result),
+      };
+      //   console.log('reqData.id:', reqData.id);
       fetch(
-        `https://oss-bill-qa.dustess.net/bill-trail-settings-api/trail/event/${id}` +
+        'https://oss-bill-qa.dustess.net/bill-trail-settings-api/trail/event' +
           jwt,
-        params
+        {
+          headers: putHeaders,
+          body: JSON.stringify(resData),
+          method: 'PUT',
+        }
       )
         .then((response) => {
           // 首先检查响应是否成功
@@ -254,31 +264,7 @@ export function getJsonResult(type, name, id, fetchApi) {
           return response.json();
         })
         .then((data) => {
-          const reqData = data.data;
-          reqData.rule = {
-            rule: JSON.stringify(result),
-          };
-          //   console.log('reqData.id:', reqData.id);
-          fetch(
-            'https://oss-bill-qa.dustess.net/bill-trail-settings-api/trail/event' +
-              jwt,
-            {
-              headers: putHeaders,
-              body: JSON.stringify(reqData),
-              method: 'PUT',
-            }
-          )
-            .then((response) => {
-              // 首先检查响应是否成功
-              if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-              }
-              // 解析JSON数据
-              return response.json();
-            })
-            .then((data) => {
-              console.log(`${name}:res`, data);
-            });
+          console.log(`${name}:res`, data);
         });
     });
 }
