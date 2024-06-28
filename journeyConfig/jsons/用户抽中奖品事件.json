@@ -1,0 +1,32 @@
+{
+  "card": {
+    "type": "event",
+    "time": "time",
+    "icon": "IconGuiji",
+    "iconColor": "#306CFF"
+  },
+  "title": [
+    {
+      "default": "参与抽奖活动中奖",
+      "comType": "TEXT"
+    }
+  ],
+  "content": [
+    {
+      "default": "参与“",
+      "field": "activityName",
+      "comType": "TEXT",
+      "suffix": "”活动获得:"
+    },
+    {
+      "field": "prizeType",
+      "comType": "TEXT"
+    },
+    {
+      "default": "“",
+      "field": "prizeName",
+      "comType": "TEXT",
+      "suffix": "”"
+    }
+  ]
+}

@@ -10,3 +10,8 @@ export function isChinese(str) {
   const chineseRegex = /^[\u4e00-\u9fff]+$/;
   return chineseRegex.test(removeQuotes(str));
 }
+
+export function isValidVariableName(str) {
+  const variableNameRegex = /^[a-zA-Z_$][a-zA-Z0-9_$]*$/;
+  return variableNameRegex.test(str);
+}

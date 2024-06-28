@@ -1,0 +1,56 @@
+{
+  "card": {
+    "type": "event",
+    "time": "time",
+    "icon": "IconBianjiziliao",
+    "iconColor": "#F5A524"
+  },
+  "title": [
+    {
+      "field": "translationFun.cusUpdatedOperatorName",
+      "comType": "TEXT",
+      "color": "#0D6BE9"
+    },
+    {
+      "field": "true",
+      "comType": "TEXT",
+      "suffix": "ㅤ"
+    },
+    {
+      "field": "actionOrigin",
+      "comType": "TEXT"
+    },
+    {
+      "field": "true",
+      "comType": "TEXT",
+      "suffix": "ㅤ"
+    },
+    {
+      "default": "(",
+      "comType": "TEXT"
+    },
+    {
+      "field": "actionOriginDetailTitle",
+      "comType": "TEXT"
+    },
+    {
+      "field": "nil",
+      "comType": "TEXT",
+      "suffix": "ㅤ"
+    },
+    {
+      "field": "actionOriginDetailBody",
+      "comType": "TEXT"
+    },
+    {
+      "default": ")",
+      "comType": "TEXT"
+    }
+  ],
+  "content": [
+    {
+      "field": "operateItem",
+      "comType": "TEXT"
+    }
+  ]
+}
