@@ -12,18 +12,8 @@
       "color": "#0D6BE9"
     },
     {
-      "field": "true",
-      "comType": "TEXT",
-      "suffix": "ㅤ"
-    },
-    {
       "field": "actionOrigin",
       "comType": "TEXT"
-    },
-    {
-      "field": "true",
-      "comType": "TEXT",
-      "suffix": "ㅤ"
     },
     {
       "default": "(",
@@ -32,11 +22,6 @@
     {
       "field": "actionOriginDetailTitle",
       "comType": "TEXT"
-    },
-    {
-      "field": "nil",
-      "comType": "TEXT",
-      "suffix": "ㅤ"
     },
     {
       "field": "actionOriginDetailBody",

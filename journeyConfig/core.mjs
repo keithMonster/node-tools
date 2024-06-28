@@ -91,7 +91,8 @@ function expressTransform(express) {
       }
       if (index === 2 && !isValidVariableName(element)) {
         // 元素3，中文后缀
-        return (result.suffix = removeQuotes(element));
+        result.suffix = removeQuotes(element);
+        return;
       }
     });
 
@@ -135,8 +136,11 @@ function strConcatTransform(express) {
 
     return parts;
   }
+  if(express?.includes('?')){
+    return false
+  }
   const matchArr = extractAndCleanParts(express);
-//   console.log('----:', matchArr);
+  // console.log('----:', matchArr);
   const result = {};
   matchArr.map((item, index) => {
     if (isValidVariableName(item)) {
@@ -150,7 +154,7 @@ function strConcatTransform(express) {
       }
     }
   });
-  return result
+  return result;
 }
 
 function fieldTransform(resField, item) {
@@ -174,13 +178,13 @@ function fieldTransform(resField, item) {
   }
   //   字符串拼接
   const strMached = strConcatTransform(express);
-//   console.log('strMached:', strMached);
+  //   console.log('strMached:', strMached);
   if (strMached) {
     // console.log();
     return resField.push(strMached);
   }
 
-  console.log('express-------', express);
+  console.log('filter-express-------', express);
 }
 
 function getJson(type, oldTitle, oldContent) {
@@ -194,21 +198,21 @@ function getJson(type, oldTitle, oldContent) {
   const title = [];
   const content = [];
 
-  console.log('oldTitle:', oldTitle);
+//   console.log('oldTitle:', oldTitle);
 
   oldTitle.map((item) => {
     fieldTransform(title, item);
   });
 
-  console.log('title:', title);
+//   console.log('title:', title);
 
-  console.log('oldContent:', oldContent);
+//   console.log('oldContent:', oldContent);
 
   oldContent?.map((item) => {
     fieldTransform(content, item);
   });
 
-  console.log('content:', content);
+//   console.log('content:', content);
 
   return {
     card,
