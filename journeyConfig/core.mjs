@@ -190,9 +190,22 @@ function fieldTransform(resField, item) {
 }
 
 function filterNewAttrFields(list, newAttrFields) {
+  // 一些在newAttr下面的字段
   list.forEach((item) => {
     if (newAttrFields.includes(item.field)) {
       item.field = `newAttr.${item.field}`;
+    }
+  });
+}
+
+function filterTranslationFields(list) {
+  // 一些需要后端映射的字段
+  const translationFunFields = {
+    customerId: 'newAttr.viewCustomerId',
+  };
+  list.forEach((item) => {
+    if (item.field in translationFunFields) {
+      item.field = translationFunFields[item.field];
     }
   });
 }
@@ -208,24 +221,25 @@ function getJson(type, oldTitle, oldContent, newAttrFields) {
   const title = [];
   const content = [];
 
-    // console.log('oldTitle:', oldTitle);
+  // console.log('oldTitle:', oldTitle);
 
   oldTitle.map((item) => {
     fieldTransform(title, item);
   });
 
-  filterNewAttrFields(title, newAttrFields);
-
-    // console.log('title:', title);
-
-  //   console.log('oldContent:', oldContent);
+  // console.log('oldContent:', oldContent);
 
   oldContent?.map((item) => {
     fieldTransform(content, item);
   });
-  filterNewAttrFields(content, newAttrFields);
 
-  //   console.log('content:', content);
+  [title,content].forEach(listItem => {
+    filterNewAttrFields(listItem, newAttrFields);
+    filterTranslationFields(listItem);
+  })
+
+  // console.log('title:', title);
+  // console.log('content:', content);
 
   return {
     card,

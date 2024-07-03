@@ -16,7 +16,7 @@
   "content": [
     {
       "default": "联系人：",
-      "field": "customerId",
+      "field": "newAttr.viewCustomerId",
       "comType": "TEXT"
     }
   ]
