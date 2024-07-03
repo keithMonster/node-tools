@@ -1,0 +1,23 @@
+{
+  "card": {
+    "type": "event",
+    "time": "time",
+    "icon": "IconBianjiziliao",
+    "iconColor": "#F5A524"
+  },
+  "title": [
+    [
+      {
+        "default": "智能助手 隐藏了智能标签",
+        "field": "default"
+      }
+    ]
+  ],
+  "content": [
+    {
+      "default": "联系人：",
+      "field": "customerId",
+      "comType": "TEXT"
+    }
+  ]
+}

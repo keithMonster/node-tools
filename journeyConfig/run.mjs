@@ -6,16 +6,30 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+const exclideName = [
+  '抖音私信',
+  '联系人还原',
+  '企业创建',
+  '企业更新',
+  '企业还原',
+  '企业合并',
+  '企业流转',
+  '企业删除',
+  '用户抽中奖品',
+  '手动更新了客户字段',
+  '显示了智能标签',
+  '隐藏了智能标签',
+];
 // 异步函数来执行所有 .mjs 文件
 async function executeMjsFilesInDirectory(directory) {
   try {
     // 读取目录内容
     let files = await fs.readdir(directory, { withFileTypes: true });
-
     // 过滤出 .mjs 文件并映射到它们的路径
     const mjsFiles = files
-      .filter(dirent => dirent.name.endsWith('.mjs'))
-      .map(dirent => path.join(directory, dirent.name));
+      .filter((dirent) => !exclideName.includes(dirent.name.split('.')[0]))
+      .filter((dirent) => dirent.name.endsWith('.mjs'))
+      .map((dirent) => path.join(directory, dirent.name));
 
     // 执行每个 .mjs 文件
     for (const file of mjsFiles) {
@@ -26,7 +40,9 @@ async function executeMjsFilesInDirectory(directory) {
           // 如果模块有默认导出，执行它
           await module.default();
         } else {
-          console.log(`Module ${file} does not have a default export to execute.`);
+          console.log(
+            `Module ${file} does not have a default export to execute.`
+          );
         }
       } catch (error) {
         console.error(`Error executing file ${file}:`, error);

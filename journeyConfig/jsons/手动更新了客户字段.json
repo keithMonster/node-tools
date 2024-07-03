@@ -1,0 +1,23 @@
+{
+  "card": {
+    "type": "event",
+    "time": "time",
+    "icon": "IconBianjiziliao",
+    "iconColor": "#F5A524"
+  },
+  "title": [
+    [
+      {
+        "field": "default",
+        "default": "通过智能助手手动更新了联系人资料"
+      }
+    ]
+  ],
+  "content": [
+    {
+      "default": "联系人：",
+      "field": "customerId",
+      "comType": "TEXT"
+    }
+  ]
+}

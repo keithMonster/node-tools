@@ -150,6 +150,7 @@ function strConcatTransform(express) {
     } else {
       if (index === 0) {
         result.default = removeQuotes(item);
+        result.field = 'default';
       } else {
         result.suffix = removeQuotes(item);
       }
@@ -207,7 +208,7 @@ function getJson(type, oldTitle, oldContent, newAttrFields) {
   const title = [];
   const content = [];
 
-  //   console.log('oldTitle:', oldTitle);
+    // console.log('oldTitle:', oldTitle);
 
   oldTitle.map((item) => {
     fieldTransform(title, item);
@@ -215,7 +216,7 @@ function getJson(type, oldTitle, oldContent, newAttrFields) {
 
   filterNewAttrFields(title, newAttrFields);
 
-  //   console.log('title:', title);
+    // console.log('title:', title);
 
   //   console.log('oldContent:', oldContent);
 
